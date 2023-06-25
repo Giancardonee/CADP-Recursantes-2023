@@ -114,7 +114,6 @@ type
 				
 				{genero la nueva lista, si cumple con las condiciones}
 				{podriamos usar una sola funcion CUMPLE , y hacer todo en una sola tamb}
-				{lo estoy resolviendo de la forma mas parecida a mi parcial que aprobe :) }
 				if (  (esAnhoMultiplo10(LD^.elemento.anhoViaje) ) and (esCiudadPuntaCana (LD^.elemento.ciudadDestino) ) and (notCapacidadMax(LD^.elemento.cantPasajeros,vD[LD^.elemento.codAvion])) ) then 
 					agregarAdelante(LN,LD^.elemento); 
 					
